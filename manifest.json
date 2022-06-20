@@ -1,0 +1,13 @@
+{
+    "name":"youtube-bookmark",
+    "description":"Take Bookmark of youtube video",
+    "version":"1.0",
+    "manifest_version":3,
+    "background":{
+        "service_worker":"/public/js/background.js"
+    },
+    "permissions":["storage","tabs"],
+    "icons":{
+        "16":"/public/images/download.png"
+    }
+}
